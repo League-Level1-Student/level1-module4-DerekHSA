@@ -1,4 +1,5 @@
 package _07_fortune_teller;
+import javax.swing.JOptionPane;
 import javax.swing.SwingUtilities;
 
 /*
@@ -14,6 +15,6 @@ public class FortuneTellerRunner {
     
     static void begin() {
       	 // Welcome the user. Give them a hint for the secret location.
-
+JOptionPane.showMessageDialog(null, "Hello! The secret location will require you to do some work!\nX: How many teeth does the adult human have?\nY:What is 124/2?");
     }
 }
